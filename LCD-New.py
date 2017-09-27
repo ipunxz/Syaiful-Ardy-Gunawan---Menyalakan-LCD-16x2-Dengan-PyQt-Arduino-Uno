@@ -8,7 +8,7 @@ import sys
 from PyQt5 import QtWidgets, uic
 import serial, time
 
-qtCreatorFile = "pyQtEdit.ui"
+qtCreatorFile = "LCD-New.ui"
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
   def __init__(self):
